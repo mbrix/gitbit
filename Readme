@@ -1,0 +1,13 @@
+Gitbit is a micro-service for Github bounties
+
+You can add a web hook: http://api.gitbit.io/webhook
+Automatically create bounties by inserting text into commit comments: !gitbit-bounty [bountyname] Please do this thing.
+
+and have bounties fulfilled by claiming them in commit messages:
+!gitbit-claim [bountyname] 1JQntWJbppSqzco54kEow5D8ZMygQmSiHa
+
+
+The quick web front end is available in the gitbitweb repo
+
+This is a proof of concept service, use at your own risk, no warranty expressed or implied.
+

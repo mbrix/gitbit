@@ -1,0 +1,16 @@
+{application, gitbit,
+ [
+  {description, "GitHub Blockchain Bounty System"},
+  {vsn, "1"},
+  {registered, [gitbit]},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  lager,
+                  hackney,
+                  ebitcoind,
+                  cowboy
+                  ]},
+  {mod, {gitbit, []}},
+  {env, []}
+ ]}.
